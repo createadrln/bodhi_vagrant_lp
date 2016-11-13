@@ -90,7 +90,7 @@
 
 	jQuery('.nav > li > a').click(function(e){
 		e.preventDefault();
-		jQuery.scrollTo(jQuery(this).attr('href'), 400, { offset:-(jQuery('#header .top').height()), axis:'y' });
+		jQuery.scrollTo(jQuery(this).attr('href'), 400, { offset:-(jQuery('.top-header').height()), axis:'y' });
 	})
 
 	jQuery(window).scroll( function() {
