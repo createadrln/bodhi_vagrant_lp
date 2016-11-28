@@ -296,6 +296,28 @@ h1.logo {
     text-decoration: none;
 }
 
+#header .slogan-wrapper {
+    margin: 50px 0 0;
+}
+
+#header:after {
+    background-color: #000;
+    content: '';
+    display: inline-block;
+    height: 100%;
+    left: 0;
+    opacity: .65;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#header .slogan,
+#header .secondary-slogan {
+    position: relative;
+    z-index: 2;
+}
+
 #header .slogan {
     font-size: 4em;
     margin-bottom: 15px;
@@ -400,12 +422,7 @@ h1.logo {
 }
 
 #header {
-    background-image: url(../images/AdobeStock_122928418_WM.jpeg);
-    /*background-image: url(../images/AdobeStock_115116869_WM.jpeg);*/
-    /*background-image: url(../images/AdobeStock_97644239_WM.jpeg);*/
-    /*background-image: url(../images/AdobeStock_68061579_WM.jpeg);*/
-    /*background-image: url(../images/AdobeStock_114538427_WM.jpeg);*/
-    /*background-image: url(../images/AdobeStock_68061579_WM.jpeg);*/
+    background-image: url(../images/shopping-cart-bkg.jpg);
     box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.15);
 }
 
@@ -524,6 +541,20 @@ h1.logo {
 
 .our-mission-desc {
     font-size: 16px;
+}
+
+/*////////////////////////////////////////////////////////////////////////
+//  Home
+///////////////////////////////////////////////////////////////////////*/
+
+#mc_embed_signup input.email {
+    height: 40px;
+    padding: 0 12px;
+}
+
+#mc_embed_signup .button {
+    background-color: #db5252;
+    height: 40px;
 }
 
 /*////////////////////////////////////////////////////////////////////////
