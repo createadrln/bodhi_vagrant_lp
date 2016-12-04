@@ -178,6 +178,7 @@ header.top-header.shows {
 
 .navbar-default .navbar-nav > li > a {
     color: #90bf90;
+    font-size: 16px;
 }
 
 .shows .navbar-default .navbar-nav > li > a {
@@ -306,7 +307,7 @@ h1.logo {
     display: inline-block;
     height: 100%;
     left: 0;
-    opacity: .65;
+    opacity: .20;
     position: absolute;
     top: 0;
     width: 100%;
@@ -329,7 +330,7 @@ h1.logo {
 
 #header .secondary-slogan {
     font-size: 1.6em;
-    color: rgba(255, 255, 255, .5);
+    color: #fff;
     line-height: 1em;
     font-family: 'Raleway', sans-serif;
 }
@@ -546,6 +547,11 @@ h1.logo {
 /*////////////////////////////////////////////////////////////////////////
 //  Home
 ///////////////////////////////////////////////////////////////////////*/
+
+#mc_embed_signup label {
+    position: relative;
+    z-index: 2;
+}
 
 #mc_embed_signup input.email {
     height: 40px;
